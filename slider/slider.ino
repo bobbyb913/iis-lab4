@@ -46,13 +46,6 @@ void loop() {
 
   //print vals
   for (int i = 0; i < 2; i++) {
-    Serial.print(isTouched[i]);
-    if (i < 2 - 1) {
-      Serial.print(",");
-    }
-  }
-  Serial.print(",");
-  for (int i = 0; i < 2; i++) {
     Serial.print(yPos[i]);
     if (i < 2 - 1) {
       Serial.print(",");
